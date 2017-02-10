@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>M6测试页面</title>
+    <style>
+        body{ margin:0; height:100%}
+        html{ height:100%} /*兼容firefox的div高度100%*/
+        .main {
+            display: table;
+        }
+        .left {
+            display: table-cell;
+            min-width: 250px;
+            vertical-align: top;
+        }
+        .right {
+            display: table-cell;
+            width:100%;
+            height: 100%;
+        }
+        .menu {
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<div style="height: 100px;"><img src="imgs/logo.jpg" height="90px"></div>
+
+<div class="main">
+    <div class="left"><span class="menu">M6系统菜单</span></div>
+    <div class="right">
+        <iframe src="http://192.168.200.75:8001/web-suite/claim/MzU3Nzk=.html#claimEstimateInfo_" height="650px" width="100%"></iframe>
+        <div>
+            <button>估损清单</button>
+            <button>历史估损比对</button>
+            <button>精友估损结果查询</button>
+            <button>发起回堪</button>
+            <button>转发</button>
+            <button>多次退回历史</button>
+            <button>案卷视图</button>
+            <button>关联案卷</button>
+            <button>风险预警</button>
+            <button>案件状态</button>
+            <button>抄单信息</button>
+            <button>未决跟踪日志</button>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
